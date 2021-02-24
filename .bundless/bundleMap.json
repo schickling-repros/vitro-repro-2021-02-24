@@ -1,0 +1,8 @@
+{
+    "node_modules/@vitro/cli/reexports/inspect-mode.css": ".bundless/web_modules/@vitro/cli/reexports/inspect-mode.css",
+    "node_modules/@vitro/cli/reexports/inspector.css": ".bundless/web_modules/@vitro/cli/reexports/inspector.css",
+    "node_modules/@vitro/cli/reexports/ui.js": ".bundless/web_modules/@vitro/cli/reexports/ui.js",
+    "node_modules/react/index.js": ".bundless/web_modules/react/index.js",
+    "node_modules/react-dom/index.js": ".bundless/web_modules/react-dom/index.js",
+    "node_modules/next/link.js": ".bundless/web_modules/next/link.js"
+}

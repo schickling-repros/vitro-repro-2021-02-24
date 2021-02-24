@@ -1,0 +1,793 @@
+{
+  "inputs": {
+    "node_modules/@vitro/cli/reexports/inspect-mode.css": {
+      "bytes": 257,
+      "imports": []
+    },
+    "node_modules/@vitro/cli/reexports/inspector.css": {
+      "bytes": 7191,
+      "imports": []
+    },
+    "<define:module>": {
+      "bytes": 0,
+      "imports": []
+    },
+    "<define:process>": {
+      "bytes": 0,
+      "imports": []
+    },
+    "<define:process.argv>": {
+      "bytes": 0,
+      "imports": []
+    },
+    "<define:process.env>": {
+      "bytes": 0,
+      "imports": []
+    },
+    "node_modules/object-assign/index.js": {
+      "bytes": 2108,
+      "imports": []
+    },
+    "node_modules/prop-types/lib/ReactPropTypesSecret.js": {
+      "bytes": 314,
+      "imports": []
+    },
+    "node_modules/prop-types/checkPropTypes.js": {
+      "bytes": 3781,
+      "imports": [
+        {
+          "path": "node_modules/prop-types/lib/ReactPropTypesSecret.js",
+          "kind": "require-call"
+        }
+      ]
+    },
+    "node_modules/react/cjs/react.development.js": {
+      "bytes": 60645,
+      "imports": [
+        {
+          "path": "node_modules/object-assign/index.js",
+          "kind": "require-call"
+        },
+        {
+          "path": "node_modules/prop-types/checkPropTypes.js",
+          "kind": "require-call"
+        }
+      ]
+    },
+    "node_modules/react/index.js": {
+      "bytes": 190,
+      "imports": [
+        {
+          "path": "node_modules/react/cjs/react.development.js",
+          "kind": "require-call"
+        }
+      ]
+    },
+    "node_modules/scheduler/cjs/scheduler.development.js": {
+      "bytes": 23762,
+      "imports": []
+    },
+    "node_modules/scheduler/index.js": {
+      "bytes": 198,
+      "imports": [
+        {
+          "path": "node_modules/scheduler/cjs/scheduler.development.js",
+          "kind": "require-call"
+        }
+      ]
+    },
+    "node_modules/scheduler/cjs/scheduler-tracing.development.js": {
+      "bytes": 9003,
+      "imports": []
+    },
+    "node_modules/scheduler/tracing.js": {
+      "bytes": 214,
+      "imports": [
+        {
+          "path": "node_modules/scheduler/cjs/scheduler-tracing.development.js",
+          "kind": "require-call"
+        }
+      ]
+    },
+    "node_modules/react-dom/cjs/react-dom.development.js": {
+      "bytes": 858813,
+      "imports": [
+        {
+          "path": "node_modules/react/index.js",
+          "kind": "require-call"
+        },
+        {
+          "path": "node_modules/object-assign/index.js",
+          "kind": "require-call"
+        },
+        {
+          "path": "node_modules/scheduler/index.js",
+          "kind": "require-call"
+        },
+        {
+          "path": "node_modules/prop-types/checkPropTypes.js",
+          "kind": "require-call"
+        },
+        {
+          "path": "node_modules/scheduler/tracing.js",
+          "kind": "require-call"
+        }
+      ]
+    },
+    "node_modules/react-dom/index.js": {
+      "bytes": 1363,
+      "imports": [
+        {
+          "path": "node_modules/react-dom/cjs/react-dom.development.js",
+          "kind": "require-call"
+        }
+      ]
+    },
+    "node_modules/@vitro/ui/bundle/index.js": {
+      "bytes": 2860549,
+      "imports": [
+        {
+          "path": "node_modules/react/index.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "node_modules/react/index.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "node_modules/react-dom/index.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "node_modules/react-dom/index.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "node_modules/@vitro/cli/reexports/ui.js": {
+      "bytes": 42,
+      "imports": [
+        {
+          "path": "node_modules/@vitro/ui/bundle/index.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "node_modules/@babel/runtime/helpers/typeof.js": {
+      "bytes": 479,
+      "imports": []
+    },
+    "node_modules/@babel/runtime/helpers/interopRequireWildcard.js": {
+      "bytes": 1191,
+      "imports": [
+        {
+          "path": "node_modules/@babel/runtime/helpers/typeof.js",
+          "kind": "require-call"
+        }
+      ]
+    },
+    "node_modules/next/dist/client/normalize-trailing-slash.js": {
+      "bytes": 787,
+      "imports": []
+    },
+    "node_modules/@babel/runtime/helpers/interopRequireDefault.js": {
+      "bytes": 147,
+      "imports": []
+    },
+    "node_modules/next/dist/next-server/lib/router/utils/get-asset-path-from-route.js": {
+      "bytes": 443,
+      "imports": []
+    },
+    "node_modules/next/dist/client/request-idle-callback.js": {
+      "bytes": 599,
+      "imports": []
+    },
+    "node_modules/next/dist/client/route-loader.js": {
+      "bytes": 6731,
+      "imports": [
+        {
+          "path": "node_modules/@babel/runtime/helpers/interopRequireDefault.js",
+          "kind": "require-call"
+        },
+        {
+          "path": "node_modules/next/dist/next-server/lib/router/utils/get-asset-path-from-route.js",
+          "kind": "require-call"
+        },
+        {
+          "path": "node_modules/next/dist/client/request-idle-callback.js",
+          "kind": "require-call"
+        }
+      ]
+    },
+    "node_modules/next/dist/next-server/server/denormalize-page-path.js": {
+      "bytes": 403,
+      "imports": []
+    },
+    "node_modules/next/dist/next-server/lib/i18n/normalize-locale-path.js": {
+      "bytes": 539,
+      "imports": []
+    },
+    "node_modules/next/dist/next-server/lib/mitt.js": {
+      "bytes": 1696,
+      "imports": []
+    },
+    "node_modules/next/dist/next-server/lib/router/utils/querystring.js": {
+      "bytes": 1159,
+      "imports": []
+    },
+    "node_modules/next/dist/next-server/lib/router/utils/format-url.js": {
+      "bytes": 3213,
+      "imports": [
+        {
+          "path": "node_modules/next/dist/next-server/lib/router/utils/querystring.js",
+          "kind": "require-call"
+        }
+      ]
+    },
+    "node_modules/next/dist/next-server/lib/utils.js": {
+      "bytes": 2818,
+      "imports": [
+        {
+          "path": "node_modules/next/dist/next-server/lib/router/utils/format-url.js",
+          "kind": "require-call"
+        }
+      ]
+    },
+    "node_modules/next/dist/next-server/lib/router/utils/is-dynamic.js": {
+      "bytes": 254,
+      "imports": []
+    },
+    "node_modules/next/dist/next-server/lib/router/utils/parse-relative-url.js": {
+      "bytes": 995,
+      "imports": [
+        {
+          "path": "node_modules/next/dist/next-server/lib/utils.js",
+          "kind": "require-call"
+        },
+        {
+          "path": "node_modules/next/dist/next-server/lib/router/utils/querystring.js",
+          "kind": "require-call"
+        }
+      ]
+    },
+    "node_modules/next/dist/compiled/path-to-regexp/index.js": {
+      "bytes": 14384,
+      "imports": []
+    },
+    "node_modules/next/dist/next-server/lib/router/utils/path-match.js": {
+      "bytes": 1924,
+      "imports": [
+        {
+          "path": "node_modules/next/dist/compiled/path-to-regexp/index.js",
+          "kind": "require-call"
+        }
+      ]
+    },
+    "node_modules/next/dist/next-server/lib/router/utils/prepare-destination.js": {
+      "bytes": 4747,
+      "imports": [
+        {
+          "path": "node_modules/next/dist/next-server/lib/router/utils/querystring.js",
+          "kind": "require-call"
+        },
+        {
+          "path": "node_modules/next/dist/next-server/lib/router/utils/parse-relative-url.js",
+          "kind": "require-call"
+        },
+        {
+          "path": "node_modules/next/dist/compiled/path-to-regexp/index.js",
+          "kind": "require-call"
+        }
+      ]
+    },
+    "node_modules/next/dist/next-server/lib/router/utils/resolve-rewrites.js": {
+      "bytes": 1998,
+      "imports": [
+        {
+          "path": "node_modules/next/dist/next-server/lib/router/utils/path-match.js",
+          "kind": "require-call"
+        },
+        {
+          "path": "node_modules/next/dist/next-server/lib/router/utils/prepare-destination.js",
+          "kind": "require-call"
+        },
+        {
+          "path": "node_modules/next/dist/client/normalize-trailing-slash.js",
+          "kind": "require-call"
+        },
+        {
+          "path": "node_modules/next/dist/next-server/lib/i18n/normalize-locale-path.js",
+          "kind": "require-call"
+        },
+        {
+          "path": "node_modules/next/dist/next-server/lib/router/utils/parse-relative-url.js",
+          "kind": "require-call"
+        },
+        {
+          "path": "node_modules/next/dist/next-server/lib/router/router.js",
+          "kind": "require-call"
+        }
+      ]
+    },
+    "node_modules/next/dist/next-server/lib/router/utils/route-matcher.js": {
+      "bytes": 667,
+      "imports": []
+    },
+    "node_modules/next/dist/next-server/lib/router/utils/route-regex.js": {
+      "bytes": 2386,
+      "imports": []
+    },
+    "node_modules/next/dist/next-server/lib/i18n/detect-domain-locale.js": {
+      "bytes": 710,
+      "imports": []
+    },
+    "node_modules/react-is/cjs/react-is.development.js": {
+      "bytes": 6980,
+      "imports": []
+    },
+    "node_modules/react-is/index.js": {
+      "bytes": 196,
+      "imports": [
+        {
+          "path": "node_modules/react-is/cjs/react-is.development.js",
+          "kind": "require-call"
+        }
+      ]
+    },
+    "node_modules/next/dist/next-server/lib/router/router.js": {
+      "bytes": 33333,
+      "imports": [
+        {
+          "path": "node_modules/next/dist/client/normalize-trailing-slash.js",
+          "kind": "require-call"
+        },
+        {
+          "path": "node_modules/next/dist/client/route-loader.js",
+          "kind": "require-call"
+        },
+        {
+          "path": "node_modules/next/dist/next-server/server/denormalize-page-path.js",
+          "kind": "require-call"
+        },
+        {
+          "path": "node_modules/next/dist/next-server/lib/i18n/normalize-locale-path.js",
+          "kind": "require-call"
+        },
+        {
+          "path": "node_modules/next/dist/next-server/lib/mitt.js",
+          "kind": "require-call"
+        },
+        {
+          "path": "node_modules/next/dist/next-server/lib/utils.js",
+          "kind": "require-call"
+        },
+        {
+          "path": "node_modules/next/dist/next-server/lib/router/utils/is-dynamic.js",
+          "kind": "require-call"
+        },
+        {
+          "path": "node_modules/next/dist/next-server/lib/router/utils/parse-relative-url.js",
+          "kind": "require-call"
+        },
+        {
+          "path": "node_modules/next/dist/next-server/lib/router/utils/querystring.js",
+          "kind": "require-call"
+        },
+        {
+          "path": "node_modules/next/dist/next-server/lib/router/utils/resolve-rewrites.js",
+          "kind": "require-call"
+        },
+        {
+          "path": "node_modules/next/dist/next-server/lib/router/utils/route-matcher.js",
+          "kind": "require-call"
+        },
+        {
+          "path": "node_modules/next/dist/next-server/lib/router/utils/route-regex.js",
+          "kind": "require-call"
+        },
+        {
+          "path": "node_modules/next/dist/next-server/lib/i18n/detect-domain-locale.js",
+          "kind": "require-call"
+        },
+        {
+          "path": "node_modules/react-is/index.js",
+          "kind": "require-call"
+        }
+      ]
+    },
+    "node_modules/next/dist/next-server/lib/router-context.js": {
+      "bytes": 431,
+      "imports": [
+        {
+          "path": "node_modules/react/index.js",
+          "kind": "require-call"
+        }
+      ]
+    },
+    "node_modules/next/dist/client/with-router.js": {
+      "bytes": 876,
+      "imports": [
+        {
+          "path": "node_modules/@babel/runtime/helpers/interopRequireDefault.js",
+          "kind": "require-call"
+        },
+        {
+          "path": "node_modules/react/index.js",
+          "kind": "require-call"
+        },
+        {
+          "path": "node_modules/next/dist/client/router.js",
+          "kind": "require-call"
+        }
+      ]
+    },
+    "node_modules/next/dist/client/router.js": {
+      "bytes": 4194,
+      "imports": [
+        {
+          "path": "node_modules/@babel/runtime/helpers/interopRequireWildcard.js",
+          "kind": "require-call"
+        },
+        {
+          "path": "node_modules/@babel/runtime/helpers/interopRequireDefault.js",
+          "kind": "require-call"
+        },
+        {
+          "path": "node_modules/react/index.js",
+          "kind": "require-call"
+        },
+        {
+          "path": "node_modules/next/dist/next-server/lib/router/router.js",
+          "kind": "require-call"
+        },
+        {
+          "path": "node_modules/next/dist/next-server/lib/router-context.js",
+          "kind": "require-call"
+        },
+        {
+          "path": "node_modules/next/dist/client/with-router.js",
+          "kind": "require-call"
+        }
+      ]
+    },
+    "node_modules/next/dist/client/use-intersection.js": {
+      "bytes": 1857,
+      "imports": [
+        {
+          "path": "node_modules/react/index.js",
+          "kind": "require-call"
+        },
+        {
+          "path": "node_modules/next/dist/client/request-idle-callback.js",
+          "kind": "require-call"
+        }
+      ]
+    },
+    "node_modules/next/dist/client/link.js": {
+      "bytes": 6780,
+      "imports": [
+        {
+          "path": "node_modules/@babel/runtime/helpers/interopRequireWildcard.js",
+          "kind": "require-call"
+        },
+        {
+          "path": "node_modules/react/index.js",
+          "kind": "require-call"
+        },
+        {
+          "path": "node_modules/next/dist/next-server/lib/router/router.js",
+          "kind": "require-call"
+        },
+        {
+          "path": "node_modules/next/dist/client/router.js",
+          "kind": "require-call"
+        },
+        {
+          "path": "node_modules/next/dist/client/use-intersection.js",
+          "kind": "require-call"
+        }
+      ]
+    },
+    "node_modules/next/link.js": {
+      "bytes": 47,
+      "imports": [
+        {
+          "path": "node_modules/next/dist/client/link.js",
+          "kind": "require-call"
+        }
+      ]
+    }
+  },
+  "outputs": {
+    ".bundless/web_modules/@vitro/cli/reexports/inspect-mode.css": {
+      "imports": [],
+      "entryPoint": "node_modules/@vitro/cli/reexports/inspect-mode.css",
+      "inputs": {
+        "node_modules/@vitro/cli/reexports/inspect-mode.css": {
+          "bytesInOutput": 204
+        }
+      },
+      "bytes": 261
+    },
+    ".bundless/web_modules/@vitro/cli/reexports/inspector.css": {
+      "imports": [],
+      "entryPoint": "node_modules/@vitro/cli/reexports/inspector.css",
+      "inputs": {
+        "node_modules/@vitro/cli/reexports/inspector.css": {
+          "bytesInOutput": 6853
+        }
+      },
+      "bytes": 6907
+    },
+    ".bundless/web_modules/@vitro/cli/reexports/ui.js": {
+      "imports": [
+        {
+          "path": ".bundless/web_modules/chunk.BC5MVPZZ.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": ".bundless/web_modules/chunk.F4W7POXN.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": ".bundless/web_modules/chunk.5WIEEEZY.js",
+          "kind": "import-statement"
+        }
+      ],
+      "exports": [
+        "Couple",
+        "DefaultWrapper",
+        "ExperimentPage",
+        "ExperimentsNav",
+        "Features",
+        "HomePage",
+        "Logo",
+        "NavTree",
+        "ToggleColorModeButton",
+        "VitroApp",
+        "applySidebarOrdering",
+        "changeParam",
+        "getFileParam",
+        "getParam",
+        "history",
+        "useRouteChanged"
+      ],
+      "entryPoint": "node_modules/@vitro/cli/reexports/ui.js",
+      "inputs": {
+        "<define:process>": {
+          "bytesInOutput": 33
+        },
+        "node_modules/@vitro/ui/bundle/index.js": {
+          "bytesInOutput": 2827568
+        },
+        "node_modules/@vitro/cli/reexports/ui.js": {
+          "bytesInOutput": 0
+        }
+      },
+      "bytes": 8703551
+    },
+    ".bundless/web_modules/react/index.js": {
+      "imports": [
+        {
+          "path": ".bundless/web_modules/chunk.5WIEEEZY.js",
+          "kind": "import-statement"
+        }
+      ],
+      "exports": [
+        "default"
+      ],
+      "entryPoint": "node_modules/react/index.js",
+      "inputs": {
+        "node_modules/react/index.js": {
+          "bytesInOutput": 0
+        }
+      },
+      "bytes": 263
+    },
+    ".bundless/web_modules/react-dom/index.js": {
+      "imports": [
+        {
+          "path": ".bundless/web_modules/chunk.BC5MVPZZ.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": ".bundless/web_modules/chunk.5WIEEEZY.js",
+          "kind": "import-statement"
+        }
+      ],
+      "exports": [
+        "default"
+      ],
+      "entryPoint": "node_modules/react-dom/index.js",
+      "inputs": {
+        "node_modules/react-dom/index.js": {
+          "bytesInOutput": 0
+        }
+      },
+      "bytes": 302
+    },
+    ".bundless/web_modules/chunk.BC5MVPZZ.js": {
+      "imports": [
+        {
+          "path": ".bundless/web_modules/chunk.5WIEEEZY.js",
+          "kind": "import-statement"
+        }
+      ],
+      "exports": [
+        "require_react_dom"
+      ],
+      "inputs": {
+        "node_modules/scheduler/cjs/scheduler.development.js": {
+          "bytesInOutput": 23050
+        },
+        "node_modules/scheduler/index.js": {
+          "bytesInOutput": 189
+        },
+        "node_modules/scheduler/cjs/scheduler-tracing.development.js": {
+          "bytesInOutput": 9238
+        },
+        "node_modules/scheduler/tracing.js": {
+          "bytesInOutput": 195
+        },
+        "node_modules/react-dom/cjs/react-dom.development.js": {
+          "bytesInOutput": 714592
+        },
+        "node_modules/react-dom/index.js": {
+          "bytesInOutput": 205
+        }
+      },
+      "bytes": 2372511
+    },
+    ".bundless/web_modules/next/link.js": {
+      "imports": [
+        {
+          "path": ".bundless/web_modules/chunk.F4W7POXN.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": ".bundless/web_modules/chunk.5WIEEEZY.js",
+          "kind": "import-statement"
+        }
+      ],
+      "exports": [
+        "default"
+      ],
+      "entryPoint": "node_modules/next/link.js",
+      "inputs": {
+        "node_modules/@babel/runtime/helpers/typeof.js": {
+          "bytesInOutput": 573
+        },
+        "node_modules/@babel/runtime/helpers/interopRequireWildcard.js": {
+          "bytesInOutput": 1316
+        },
+        "node_modules/next/dist/client/normalize-trailing-slash.js": {
+          "bytesInOutput": 719
+        },
+        "node_modules/@babel/runtime/helpers/interopRequireDefault.js": {
+          "bytesInOutput": 231
+        },
+        "node_modules/next/dist/next-server/lib/router/utils/get-asset-path-from-route.js": {
+          "bytesInOutput": 343
+        },
+        "node_modules/next/dist/client/request-idle-callback.js": {
+          "bytesInOutput": 722
+        },
+        "node_modules/next/dist/client/route-loader.js": {
+          "bytesInOutput": 6387
+        },
+        "node_modules/next/dist/next-server/server/denormalize-page-path.js": {
+          "bytesInOutput": 509
+        },
+        "node_modules/next/dist/next-server/lib/i18n/normalize-locale-path.js": {
+          "bytesInOutput": 615
+        },
+        "node_modules/next/dist/next-server/lib/mitt.js": {
+          "bytesInOutput": 528
+        },
+        "node_modules/next/dist/next-server/lib/router/utils/querystring.js": {
+          "bytesInOutput": 1491
+        },
+        "node_modules/next/dist/next-server/lib/router/utils/format-url.js": {
+          "bytesInOutput": 2713
+        },
+        "node_modules/next/dist/next-server/lib/utils.js": {
+          "bytesInOutput": 3238
+        },
+        "node_modules/next/dist/next-server/lib/router/utils/is-dynamic.js": {
+          "bytesInOutput": 260
+        },
+        "node_modules/next/dist/next-server/lib/router/utils/parse-relative-url.js": {
+          "bytesInOutput": 823
+        },
+        "node_modules/next/dist/compiled/path-to-regexp/index.js": {
+          "bytesInOutput": 11816
+        },
+        "node_modules/next/dist/next-server/lib/router/utils/path-match.js": {
+          "bytesInOutput": 2403
+        },
+        "node_modules/next/dist/next-server/lib/router/utils/prepare-destination.js": {
+          "bytesInOutput": 4666
+        },
+        "node_modules/next/dist/next-server/lib/router/utils/resolve-rewrites.js": {
+          "bytesInOutput": 2183
+        },
+        "node_modules/next/dist/next-server/lib/router/utils/route-matcher.js": {
+          "bytesInOutput": 959
+        },
+        "node_modules/next/dist/next-server/lib/router/utils/route-regex.js": {
+          "bytesInOutput": 2703
+        },
+        "node_modules/next/dist/next-server/lib/i18n/detect-domain-locale.js": {
+          "bytesInOutput": 880
+        },
+        "node_modules/react-is/cjs/react-is.development.js": {
+          "bytesInOutput": 7331
+        },
+        "node_modules/react-is/index.js": {
+          "bytesInOutput": 187
+        },
+        "node_modules/next/dist/next-server/lib/router/router.js": {
+          "bytesInOutput": 31894
+        },
+        "node_modules/next/dist/next-server/lib/router-context.js": {
+          "bytesInOutput": 478
+        },
+        "node_modules/next/dist/client/with-router.js": {
+          "bytesInOutput": 877
+        },
+        "node_modules/next/dist/client/router.js": {
+          "bytesInOutput": 3725
+        },
+        "node_modules/next/dist/client/use-intersection.js": {
+          "bytesInOutput": 2325
+        },
+        "node_modules/next/dist/client/link.js": {
+          "bytesInOutput": 6643
+        },
+        "node_modules/next/link.js": {
+          "bytesInOutput": 93
+        }
+      },
+      "bytes": 352548
+    },
+    ".bundless/web_modules/chunk.F4W7POXN.js": {
+      "imports": [],
+      "exports": [
+        "define_process_env_default"
+      ],
+      "inputs": {
+        "<define:process.env>": {
+          "bytesInOutput": 37
+        }
+      },
+      "bytes": 278
+    },
+    ".bundless/web_modules/chunk.5WIEEEZY.js": {
+      "imports": [],
+      "exports": [
+        "__commonJS",
+        "require_checkPropTypes",
+        "require_object_assign",
+        "require_react"
+      ],
+      "inputs": {
+        "node_modules/object-assign/index.js": {
+          "bytesInOutput": 2017
+        },
+        "node_modules/prop-types/lib/ReactPropTypesSecret.js": {
+          "bytesInOutput": 207
+        },
+        "node_modules/prop-types/checkPropTypes.js": {
+          "bytesInOutput": 2333
+        },
+        "node_modules/react/cjs/react.development.js": {
+          "bytesInOutput": 49489
+        },
+        "node_modules/react/index.js": {
+          "bytesInOutput": 181
+        }
+      },
+      "bytes": 178416
+    }
+  }
+}
